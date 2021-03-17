@@ -1,0 +1,22 @@
+$color-primary: #FF0243;
+$color-grey-light: #F4F4F4;
+$color-white: #FFF;
+$color-black: #000;
+
+.nothingToShow{
+  // background-color: blue;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // font-size: 2rem;
+  // color: g;
+
+  i{
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    color: grey;
+  }
+}

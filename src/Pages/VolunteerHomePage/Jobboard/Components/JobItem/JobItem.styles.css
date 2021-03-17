@@ -1,0 +1,51 @@
+.jobItem{
+    /* background-color: chartreuse; */
+    padding: 0.7rem;
+    border-bottom: 1px solid black;
+
+}
+.buttonContainer_1943699{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonContainer_1943699 button{
+    background-color: lightblue;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in;
+    
+}
+.buttonContainer_1943699 button:hover{
+    background-color: blue;
+    font-weight: bold;
+    transform: scale(1.1);
+    color: whitesmoke;
+    cursor: pointer;
+
+    
+}
+.location-time{
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+    
+}
+.location,.time{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    
+}
+.location-time i {
+    display: flex;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100rem;
+    justify-content: center;
+    margin-right: 1rem;
+    background-color: gray;
+    color: black;
+    
+}

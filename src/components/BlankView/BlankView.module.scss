@@ -1,0 +1,23 @@
+
+.Container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  i{
+    margin-bottom: 3rem;
+    font-size: 10rem;
+    color: darken($color: #f9f9f9, $amount: 5)
+  }
+
+  .Text{
+    font-size: 2rem;
+    width: 70%;
+    font-weight: bold;
+    color: darken($color:  #f9f9f9, $amount: 30);
+    text-align: center;
+  }
+}

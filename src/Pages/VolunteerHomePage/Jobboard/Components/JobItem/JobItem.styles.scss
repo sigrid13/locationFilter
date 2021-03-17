@@ -1,0 +1,84 @@
+$color-primary: #FF0243;
+$color-grey-light: #F4F4F4;
+$color-white: #FFF;
+$color-black: #000;
+
+.jobItem{
+    background-color: darken($color: $color-white, $amount: 2);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    transition: .2s all;
+    border: 1px solid darken($color: $color-white, $amount: 4);
+
+    .JobDuration{
+        display: flex;
+        align-items: center;
+    }
+
+    .subHeading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: .5rem 0 1rem 0 ;
+        color: #f9f9f9;
+        
+        .companyName{
+            color: $color-primary;
+        }
+    }
+
+    &:hover{
+        background-color: darken($color: $color-white, $amount: 4);;
+        // transform: scale(1.02);
+    }
+}
+.buttonContainer_1943699{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonContainer_1943699 button{
+    background-color: darken($color: $color-primary, $amount: 10);
+    color: $color-white;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: inherit;
+    padding: .7rem 2rem;
+    transition: all 0.2s ease-in;
+    border: none;
+    
+    &:hover{
+        background-color: darken($color: $color-primary, $amount: 0);
+        font-weight: bold;
+        // transform: scale(1.1);
+        color: whitesmoke;
+        cursor: pointer;
+    }
+}
+
+.location-time{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    
+    i {
+        display: flex;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 100rem;
+        justify-content: center;
+        margin-right: .6rem;
+        // background-color: gray;
+        color: $color-primary;
+        font-size: 1.6rem;
+    }
+}
+.location,.time{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    
+}
